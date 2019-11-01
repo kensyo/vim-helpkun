@@ -19,12 +19,12 @@ function! s:CloseHelpWindow() abort
     endfor
 endfunction
 
-function! helpkun#CloseHelp() abort
+function! helpkun#Close() abort
     call s:CloseHelpWindow()
     echo s:close_message
 endfunction
 
-function! helpkun#OpenHelpOnCursor() abort
+function! helpkun#OpenOnCursor() abort
     execute 'h '.expand('<cword>')
 endfunction
 

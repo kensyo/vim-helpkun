@@ -29,20 +29,20 @@ License: MIT
 下述のマッピングを用いて次のように自身でコマンドもしくはマッピングを定義してく
 ださい：
 >
-	command! CH execute "normal \<Plug>(close_help)"
-	command! HH execute "normal \<Plug>(open_help_on_cursor)"
+	command! CH execute "normal \<Plug>(helpkun_close)"
+	command! HH execute "normal \<Plug>(helpkun_open_on_cursor)"
 もしくは
 >
-	nmap <Leader>ch <Plug>(close_help)
-	nmap <Leader>hh <Plug>(open_help_on_cursor)
+	nmap <Leader>ch <Plug>(helpkun_close)
+	nmap <Leader>hh <Plug>(helpkun_open_on_cursor)
 <
 等。
 
-<Plug>(close_help)				*<Plug>(close_help)*
+<Plug>(helpkun_close)				*<Plug>(helpkun_close)*
 			カーソルが存在するのと同じタブにあるヘルプウィンドウを
 			閉じます。
 
-<Plug>(open_help_on_cursor)			*<Plug>(open_help_on_cursor)*
+<Plug>(helpkun_open_on_cursor)			*<Plug>(helpkun_open_on_cursor)*
 			カーソル下の単語に対応するヘルプ項目を開きます。
 
 ==============================================================================
