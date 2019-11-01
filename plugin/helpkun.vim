@@ -1,4 +1,4 @@
-" Just close help window.
+" Just open and close help window.
 " Author : kensyo <takitateokowa+vimplugin at gmail.com>
 " License: MIT
 
