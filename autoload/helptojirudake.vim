@@ -6,7 +6,7 @@ let s:save_cpo = &cpo
 set cpo&vim
 
 " Help を閉じた後に表示する文字列
-let s:message = get(g:, 'helptojirudake_message', '')
+let s:message = get(g:, 'helpkun_message', '')
 
 function! s:CloseHelpWindow() abort
     for w in range(1, winnr('$'))
@@ -19,7 +19,7 @@ function! s:CloseHelpWindow() abort
     endfor
 endfunction
 
-function! helptojirudake#Execute() abort
+function! helpkun#Execute() abort
     call s:CloseHelpWindow()
     echo s:message
 endfunction

@@ -1,30 +1,30 @@
-*helptojirudake.txt*	Just close help window.
+*helpkun.txt*	Just close help window.
 
 Version: 0.1
 Author: kensyo <takitatateokowa+vimplugin at gmail.com>
 License: MIT
 
 ==============================================================================
-CONTENTS					*helptojirudake-contents*
+CONTENTS					*helpkun-contents*
 
-INTRODUCTION			|helptojirudake-introduction|
-INTERFACE			|helptojirudake-interface|
-  KEY MAPPINGS			  |helptojirudake-key-mappings|
-SETTINGS			|helptojirudake-settings|
+INTRODUCTION			|helpkun-introduction|
+INTERFACE			|helpkun-interface|
+  KEY MAPPINGS			  |helpkun-key-mappings|
+SETTINGS			|helpkun-settings|
 
 
 ==============================================================================
-INTRODUCTION					*helptojirudake-introduction*
+INTRODUCTION					*helpkun-introduction*
 
-*helptojirudake* is a vim plugin to contribute a function to close a help
+*helpkun* is a vim plugin to contribute a function to close a help
 window from anywhere in the same tab as the help window is located.
 That's all.
 
 ==============================================================================
-INTERFACE					*helptojirudake-interface*
+INTERFACE					*helpkun-interface*
 
 ------------------------------------------------------------------------------
-KEY MAPPINGS					*helptojirudake-key-mappings*
+KEY MAPPINGS					*helpkun-key-mappings*
 
 Define your own command or mapping using the mapping below, like
 >
@@ -41,9 +41,9 @@ or
 			exists.
 
 ==============================================================================
-SETTINGS					*helptojirudake-settings*
+SETTINGS					*helpkun-settings*
 
-Echo message					*g:helptojirudake_message*
+Echo message					*g:helpkun_message*
 ----------------
 Set a message you want to display after closing help window to this variable.
 Default: ''

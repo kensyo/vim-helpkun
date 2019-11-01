@@ -1,30 +1,30 @@
-*helptojirudake.txt*	ただヘルプウィンドウを閉じるだけ。
+*helpkun.txt*	ただヘルプウィンドウを閉じるだけ。
 
 Version: 0.1
 Author: kensyo <takitatateokowa+vimplugin at gmail.com>
 License: MIT
 
 ==============================================================================
-目次					*helptojirudake-contents*
+目次					*helpkun-contents*
 
-概要			|helptojirudake-introduction|
-インタフェース	        |helptojirudake-interface|
-  キーマッピング	    |helptojirudake-key-mappings|
-セッティング	    	|helptojirudake-settings|
+概要			|helpkun-introduction|
+インタフェース	        |helpkun-interface|
+  キーマッピング	    |helpkun-key-mappings|
+セッティング	    	|helpkun-settings|
 
 
 ==============================================================================
-概要						*helptojirudake-introduction*
+概要						*helpkun-introduction*
 
-*helptojirudake* はヘルプウィンドウがあるのと同じタブならどこからでもヘルプウ
+*helpkun* はヘルプウィンドウがあるのと同じタブならどこからでもヘルプウ
 ィンドウを閉じることができる機能を提供するプラグインです。
 それだけです。
 
 ==============================================================================
-インタフェース					*helptojirudake-interface*
+インタフェース					*helpkun-interface*
 
 ------------------------------------------------------------------------------
-キーマッピング					*helptojirudake-key-mappings*
+キーマッピング					*helpkun-key-mappings*
 
 下述のマッピングを用いて次のように自身でコマンドもしくはマッピングを定義してく
 ださい：
@@ -42,9 +42,9 @@ License: MIT
 			閉じます。
 
 ==============================================================================
-セッティング					*helptojirudake-settings*
+セッティング					*helpkun-settings*
 
-メッセージ表示					*g:helptojirudake_message*
+メッセージ表示					*g:helpkun_message*
 ----------------
 ヘルプウィンドウを閉じた後に表示するメッセージをこの変数にセットしてください。
 デフォルト: ''

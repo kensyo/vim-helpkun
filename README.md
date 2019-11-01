@@ -1,4 +1,4 @@
-# helptojirudake
+# helpkun
 
 A vim plugin just to close a help window from everywhere as long as your cursor is in the same tab as the help window.
 
