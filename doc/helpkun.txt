@@ -1,4 +1,4 @@
-*helpkun.txt*	Just close help window.
+*helpkun.txt*	Just open and close the help window.
 
 Version: 0.1
 Author: kensyo <takitatateokowa+vimplugin at gmail.com>
@@ -16,8 +16,8 @@ SETTINGS			|helpkun-settings|
 ==============================================================================
 INTRODUCTION					*helpkun-introduction*
 
-*helpkun* is a vim plugin to contribute a function to close a help
-window from anywhere in the same tab as the help window is located.
+*helpkun* is a vim plugin to contribute a function to open and close a help
+window a little bit readily.
 That's all.
 
 ==============================================================================
@@ -28,22 +28,28 @@ KEY MAPPINGS					*helpkun-key-mappings*
 
 Define your own command or mapping using the mapping below, like
 >
-	command! CH <Plug>(help_tojiru)
+	command! CH execute "normal \<Plug>(close_help)"
+	command! HH execute "normal \<Plug>(open_help_on_cursor)"
 <
 or
 >
-	map <silent> <Leader>ch <Plug>(help_tojiru)
+	nmap <Leader>ch <Plug>(close_help)
+	nmap <Leader>hh <Plug>(open_help_on_cursor)
 <
 .
 
-<Plug>(help_tojiru)				*<Plug>(help_tojiru)*
+<Plug>(close_help)				*<Plug>(close_help)*
 			Close the help window in the same tab as your coursor
 			exists.
+
+<Plug>(open_help_on_cursor)			*<Plug>(open_help_on_cursor)*
+			Open the help item which corresponds to the word under your
+			cursor.
 
 ==============================================================================
 SETTINGS					*helpkun-settings*
 
-Echo message					*g:helpkun_message*
+Echo message					*g:helpkun_close_message*
 ----------------
 Set a message you want to display after closing help window to this variable.
 Default: ''
