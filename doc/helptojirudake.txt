@@ -1,0 +1,52 @@
+*helptojirudake.txt*	Just close help window.
+
+Version: 0.1
+Author: kensyo <takitatateokowa+vimplugin at gmail.com>
+License: MIT
+
+==============================================================================
+CONTENTS					*helptojirudake-contents*
+
+INTRODUCTION			|helptojirudake-introduction|
+INTERFACE			|helptojirudake-interface|
+  KEY MAPPINGS			  |helptojirudake-key-mappings|
+SETTINGS			|helptojirudake-settings|
+
+
+==============================================================================
+INTRODUCTION					*helptojirudake-introduction*
+
+*helptojirudake* is a vim plugin to contribute a function to close a help
+window from anywhere in the same tab as the help window is located.
+That's all.
+
+==============================================================================
+INTERFACE					*helptojirudake-interface*
+
+------------------------------------------------------------------------------
+KEY MAPPINGS					*helptojirudake-key-mappings*
+
+Define your own command or mapping using the mapping below, like
+>
+	command! CH <Plug>(help_tojiru)
+<
+or
+>
+	map <silent> <Leader>ch <Plug>(help_tojiru)
+<
+.
+
+<Plug>(help_tojiru)				*<Plug>(help_tojiru)*
+			Close the help window in the same tab as your coursor
+			exists.
+
+==============================================================================
+SETTINGS					*helptojirudake-settings*
+
+Echo message					*g:helptojirudake_message*
+----------------
+Set a message you want to display after closing help window to this variable.
+Default: ''
+
+==============================================================================
+vim:tw=78:fo=tcq2mM:ts=8:ft=help:norl

@@ -1,0 +1,53 @@
+*helptojirudake.txt*	ただヘルプウィンドウを閉じるだけ。
+
+Version: 0.1
+Author: kensyo <takitatateokowa+vimplugin at gmail.com>
+License: MIT
+
+==============================================================================
+目次					*helptojirudake-contents*
+
+概要			|helptojirudake-introduction|
+インタフェース	        |helptojirudake-interface|
+  キーマッピング	    |helptojirudake-key-mappings|
+セッティング	    	|helptojirudake-settings|
+
+
+==============================================================================
+概要						*helptojirudake-introduction*
+
+*helptojirudake* はヘルプウィンドウがあるのと同じタブならどこからでもヘルプウ
+ィンドウを閉じることができる機能を提供するプラグインです。
+それだけです。
+
+==============================================================================
+インタフェース					*helptojirudake-interface*
+
+------------------------------------------------------------------------------
+キーマッピング					*helptojirudake-key-mappings*
+
+下述のマッピングを用いて次のように自身でコマンドもしくはマッピングを定義してく
+ださい：
+>
+	command! CH <Plug>(help_tojiru)
+<
+もしくは
+>
+	nmap <Leader>ch <Plug>(help_tojiru)
+<
+。
+
+<Plug>(help_tojiru)				*<Plug>(help_tojiru)*
+			カーソルが存在するのと同じタブにあるヘルプウィンドウを
+			閉じます。
+
+==============================================================================
+セッティング					*helptojirudake-settings*
+
+メッセージ表示					*g:helptojirudake_message*
+----------------
+ヘルプウィンドウを閉じた後に表示するメッセージをこの変数にセットしてください。
+デフォルト: ''
+
+==============================================================================
+vim:tw=78:fo=tcq2mM:ts=8:ft=help:norl
