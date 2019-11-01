@@ -11,7 +11,7 @@ Map `<Plug>(helpkun_close)` and `<Plug>(helpkun_open_on_cursor)` like
 
 ```viml
 nmap <Leader>ch <Plug>(helpkun_close)
-nmap <Leader>ch <Plug>(helpkun_open_on_cursor)
+nmap <Leader>oh <Plug>(helpkun_open_on_cursor)
 
 ```
 or
