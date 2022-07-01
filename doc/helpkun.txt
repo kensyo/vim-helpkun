@@ -26,7 +26,7 @@ INTERFACE					*helpkun-interface*
 ------------------------------------------------------------------------------
 KEY MAPPINGS					*helpkun-zindex*
 
-KEY MAPPINGS					*helpkun-zindex*
+KEY MAPPINGS					*helpkun.zindex*
 
 KEY MAPPINGS					*helpkun-introducntion-zindex*
 
