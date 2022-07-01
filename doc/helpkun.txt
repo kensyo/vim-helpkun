@@ -24,8 +24,9 @@ That's all.
 INTERFACE					*helpkun-interface*
 
 ------------------------------------------------------------------------------
-KEY MAPPINGS					*helpkun-zindex*
+KEY MAPPINGS					*helpkun-introducntion-zindex*
 
+KEY MAPPINGS					*helpkun-introducntion.zindex*
 Define your own command or mapping using the mapping below, like
 >
 	command! CH execute "normal \<Plug>(helpkun_close)"
@@ -47,7 +48,9 @@ or
 			cursor.
 
 ==============================================================================
-SETTINGS					*helpkun-winblend*
+SETTINGS					*helpkun-hoge-winblend*
+
+SETTINGS					*helpkun-hoge.winblend*
 
 Echo message					*g:helpkun_close_message*
 ----------------
