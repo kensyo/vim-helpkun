@@ -24,7 +24,7 @@ That's all.
 INTERFACE					*helpkun-interface*
 
 ------------------------------------------------------------------------------
-KEY MAPPINGS					*helpkun-key-mappings*
+KEY MAPPINGS					*helpkun-zindex*
 
 Define your own command or mapping using the mapping below, like
 >
@@ -47,7 +47,7 @@ or
 			cursor.
 
 ==============================================================================
-SETTINGS					*helpkun-settings*
+SETTINGS					*helpkun-winblend*
 
 Echo message					*g:helpkun_close_message*
 ----------------
